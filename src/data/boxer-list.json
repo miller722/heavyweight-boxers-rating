@@ -1,0 +1,65 @@
+{
+  "heavyweightBoxers": [
+    {
+      "id": 1,
+      "name": "George Foreman",
+      "height": "194 cm",
+      "weight": "100 kg"
+    },
+    {
+      "id": 2,
+      "name": "Muhammad Ali",
+      "height": "191 cm",
+      "weight": "97 kg"
+    },
+    {
+      "id": 3,
+      "name": "Ike Ibeabuchi",
+      "height": "188 cm",
+      "weight": "106 kg"
+    },
+    {
+      "id": 4,
+      "name": "Lennox Lewis",
+      "height": "196 cm",
+      "weight": "112 kg"
+    },
+    {
+      "id": 5,
+      "name": "Vitaliy Klichko",
+      "height": "201 cm",
+      "weight": "112 kg"
+    },
+    {
+      "id": 6,
+      "name": "Joe Frazier",
+      "height": "182 cm",
+      "weight": "93 kg"
+    },
+    {
+      "id": 7,
+      "name": "Riddick Bowe",
+      "height": "196 cm",
+      "weight": "107 kg"
+    },
+    {
+      "id": 8,
+      "name": "Evander Holyfield",
+      "height": "189 cm",
+      "weight": "98 kg"
+    },
+
+    {
+      "id": 9,
+      "name": "David Tua",
+      "height": "178 cm",
+      "weight": "102 kg"
+    },
+    {
+      "id": 10,
+      "name": "Mike Tyson",
+      "height": "178 cm",
+      "weight": "96 kg"
+    }
+  ]
+}
