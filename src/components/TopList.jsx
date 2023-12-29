@@ -22,7 +22,7 @@ export default function TopList() {
               <td>{item.height}</td>
               <td>{item.weight}</td>
               <td className="text-center">
-                <img src="src/images/icon-info.png" alt="" />
+                <img src="images/icon-info.png" alt="" />
               </td>
             </tr>
           ))}
