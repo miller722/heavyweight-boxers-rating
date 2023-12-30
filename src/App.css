@@ -5,10 +5,12 @@ body {
   background-color: #000;
   color: #fff ;
   box-sizing: border-box;
-  background-image: url("images/background-main.png");
+  background-image: url("./data/background-main.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  font-family: 'Oswald', sans-serif;
+  
 }
 
 h1,
@@ -32,4 +34,36 @@ p {
   border-radius: 10px;
   width: 200px;
   height: 200px;
+}
+.modal{
+  padding-top: 40px;
+  margin-top: 20px;
+}
+.modal-content {
+background-color: #383737;
+
+}
+.modal-header {
+  position: relative;
+  height: 150px;
+  background: rgb(91, 85, 69);
+  }
+.modal-body {
+  text-align: justify;
+  padding: 25px;
+  background: rgb(122, 107, 72);
+  font-family: 'DM Serif Display';
+  font-size: 18px;
+}
+
+
+.title-info__image {
+  position: absolute;
+  top: -40%; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 180px;
+  border-radius: 50%;
+  border: 5px groove rgb(170, 169, 166);
 }
