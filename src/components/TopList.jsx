@@ -5,6 +5,11 @@ import BoxerInfoModal from "./BoxerInfoModal";
 
 export default function TopList() {
   const [lgShow, setLgShow] = useState(false);
+  const [selectedBoxer, setSelectedBoxer] = useState("");
+  const handleInfoClick = (boxer) => {
+    setLgShow(true);
+    setSelectedBoxer(boxer);
+  };
   return (
     <div>
       <Table className="table-list" striped bordered hover variant="dark">
@@ -24,19 +29,18 @@ export default function TopList() {
               <td>{item.name}</td>
               <td>{item.height}</td>
               <td>{item.weight}</td>
-              <td className="text-center" onClick={() => setLgShow(true)}>
+              <td className="text-center" onClick={() => handleInfoClick(item)}>
                 <img src="images/icon-info.png" alt="" />
               </td>
             </tr>
           ))}
         </tbody>
       </Table>
-      <BoxerInfoModal lgShow={lgShow} setLgShow={setLgShow} />
-      {/* <img
-        className="images-avatar"
-        src="images/George-Foreman.webp"
-        alt="avatar"
-      /> */}
+      <BoxerInfoModal
+        selectedBoxer={selectedBoxer}
+        lgShow={lgShow}
+        setLgShow={setLgShow}
+      />
     </div>
   );
 }
