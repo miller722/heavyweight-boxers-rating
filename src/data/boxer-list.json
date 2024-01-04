@@ -30,40 +30,40 @@
       "name": "Lennox Lewis",
       "height": "196 cm",
       "weight": "112 kg",
-      "puthImage": "",
-      "bio": ""
+      "puthImage": "images/Lennox-Lewis-info.jpg",
+      "bio": "Lennox Claudius Lewis CM CBE (born 2 September 1965) is a boxing commentator and former professional boxer who competed from 1989 to 2003. He is a three-time world heavyweight champion, a two-time lineal champion, and the last heavyweight to hold the undisputed championship. Holding dual British and Canadian citizenship, Lewis represented Canada as an amateur at the 1984 and 1988 Olympics; in the latter, he won a gold medal in the super-heavyweight division."
     },
     {
       "id": 5,
       "name": "Vitaliy Klichko",
       "height": "201 cm",
       "weight": "112 kg",
-      "puthImage": "",
-      "bio": ""
+      "puthImage": "images/Vitaliy-Klitschko-info.jpg",
+      "bio": "As a boxer, Klitschko won multiple world heavyweight championships. He held the World Boxing Organization (WBO) title from 1999 to 2000, the Ring magazine title from 2004 to 2005, and the World Boxing Council (WBC) title twice between 2004 and 2013. Overall, he defeated 15 opponents in world heavyweight title fights, and made 12 successful title defences. In 2011, Vitali and his younger brother Wladimir Klitschko entered the Guinness World Records as the pair of brothers with most world heavyweight title fight wins (30 at the time; 40 as of 2020). From 2006 until 2015, Vitali and Wladimir (also a multiple world champion) dominated heavyweight boxing, a period widely known as the 'Klitschko Era' of the division. Klitschko's last fight was in 2012, but he remained the WBC heavyweight champion at age 42 when he announced his retirement in December 2013."
     },
     {
       "id": 6,
       "name": "Joe Frazier",
       "height": "182 cm",
       "weight": "93 kg",
-      "puthImage": "",
-      "bio": ""
+      "puthImage": "images/Joe-Fraizer-info.jpg",
+      "bio": "Joseph William Frazier (January 12, 1944 – November 7, 2011), nicknamed ``Smokin' Joe``, was an American professional boxer who competed from 1965 to 1981. Widely regarded as one of the greatest heavyweight boxers of all time, he was known for his strength, durability, formidable left hand, and relentless pressure fighting style and was the first boxer to defeat Muhammad Ali. Frazier held the NYSAC heavyweight title from 1968 to 1973 and the undisputed heavyweight champion from 1970 to 1973 and as an amateur won a gold medal at the 1964 Summer Olympics."
     },
     {
       "id": 7,
       "name": "Riddick Bowe",
       "height": "196 cm",
       "weight": "107 kg",
-      "puthImage": "",
-      "bio": ""
+      "puthImage": "images/Riddick-Bowe-info.jpg",
+      "bio": "Riddick Lamont Bowe (born August 10, 1967) is an American former professional boxer who competed between 1989 and 2008. He held the undisputed world heavyweight championship in 1992, and won the super heavyweight silver medal at the 1988 Summer Olympics."
     },
     {
       "id": 8,
       "name": "Evander Holyfield",
       "height": "189 cm",
       "weight": "98 kg",
-      "puthImage": "",
-      "bio": ""
+      "puthImage": "images/Evander-Holyfield-info.webp",
+      "bio": "Evander Holyfield (born October 19, 1962) is an American former professional boxer who competed between 1984 and 2011. He reigned as the undisputed champion at cruiserweight in the late 1980s and at heavyweight in the early 1990s, and is the only boxer in history to win the undisputed championship in two weight classes in the three belt era. Nicknamed 'the Real Deal', Holyfield is the only four-time world heavyweight champion, having held the unified WBA, WBC, and IBF titles from 1990 to 1992, the WBA and IBF titles again from 1993 to 1994, the WBA title a third time from 1996 to 1999; the IBF title a third time from 1997 to 1999 and the WBA title for a fourth time from 2000 to 2001."
     },
 
     {
@@ -71,16 +71,16 @@
       "name": "David Tua",
       "height": "178 cm",
       "weight": "102 kg",
-      "puthImage": "",
-      "bio": ""
+      "puthImage": "images/David-Tua-info.jpg",
+      "bio": "Faumuina To'aletai Mafaufau David Tua ONZM (born 21 November 1972), best known as David Tua, is a Samoan-New Zealand former professional boxer who competed from 1992 to 2013. A highly ranked heavyweight contender for most of his career, Tua was known for his formidable punching power, especially in his devastating left hook. He scored sixteen wins by knockout in the first round, which included knockouts of world heavyweight champions John Ruiz and Michael Moorer within thirty seconds of the first round, as well as late stoppages of world champions Oleg Maskaev and Hasim Rahman. He was ranked by BoxRec in the world's top 10 heavyweights from 1996 to 2003, reaching his highest ranking of No.3 in 1998. Tua ended his career with a knockout-to-win ratio of 82.6%. In a 2003 article by The Ring magazine, Tua was ranked 48th on a list of 100 greatest punchers of all time"
     },
     {
       "id": 10,
       "name": "Mike Tyson",
       "height": "178 cm",
       "weight": "96 kg",
-      "puthImage": "", 
-      "bio": ""
+      "puthImage": "images/Mike-Tyson-info.jpg", 
+      "bio": "Michael Gerard Tyson (born June 30, 1966) is an American former professional boxer who competed from 1985 to 2005. Nicknamed 'Iron Mike' Tyson is regarded as one of the greatest heavyweight boxers of all time. He reigned as the undisputed world heavyweight champion from 1987 to 1990. Tyson won his first 19 professional fights by knockout, 12 of them in the first round. Claiming his first belt at 20 years, 4 months, and 22 days old, Tyson holds the record as the youngest boxer ever to win a heavyweight title. He was the first heavyweight boxer to simultaneously hold the WBA, WBC and IBF titles, as well as the only heavyweight to unify them in succession. The following year, Tyson became the lineal champion when he knocked out Michael Spinks in 91 seconds of the first round. In 1990, Tyson was knocked out by underdog Buster Douglas in one of the biggest upsets in boxing history."
     }
   ]
 }
