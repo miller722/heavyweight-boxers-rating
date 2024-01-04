@@ -4,62 +4,83 @@
       "id": 1,
       "name": "George Foreman",
       "height": "194 cm",
-      "weight": "100 kg"
-    },
+      "weight": "100 kg",
+      "puthImage": "images/George-Foreman-info.jpg",
+      "bio": "George Edward Foreman (born January 10, 1949) is an American former professional boxer, entrepreneur, minister, and author. In boxing, he competed between 1967 and 1997 and was nicknamed \"Big George\". He is a two-time world heavyweight champion and an Olympic gold medalist. As an entrepreneur, he is known for the George Foreman Grill."
+    }
+    ,
     {
       "id": 2,
       "name": "Muhammad Ali",
       "height": "191 cm",
-      "weight": "97 kg"
+      "weight": "97 kg",
+      "puthImage": "images/Muhammad-Ali-info.webp",
+      "bio": "Muhammad Ali (/ɑːˈliː/; born Cassius Marcellus Clay Jr.; January 17, 1942 – June 3, 2016) was an American professional boxer and activist. Nicknamed \"the Greatest\", he is regarded as one of the most significant sports figures of the 20th century and is often regarded as the greatest heavyweight boxer of all time. He held the Ring magazine heavyweight title from 1964 to 1970. He was the undisputed champion from 1974 to 1978 and the WBA and Ring heavyweight champion from 1978 to 1979. In 1999, he was named Sportsman of the Century by Sports Illustrated and the Sports Personality of the Century by the BBC."
     },
     {
       "id": 3,
       "name": "Ike Ibeabuchi",
       "height": "188 cm",
-      "weight": "106 kg"
+      "weight": "111 kg",
+      "puthImage": "images/Ike-Ibeabuchi-info.webp",
+      "bio": "Ikemefula Charles 'Ike' Ibeabuchi (born February 2, 1973) is a Nigerian former professional boxer who competed from 1994 to 1999 in the heavyweight division. He defeated the previously undefeated highly ranked contender David Tua in 1997 and another highly ranked contender and future world champion Chris Byrd in 1999. He was ranked by BoxRec as the world's No.8 heavyweight in 1997 and 1998, and as No.10 heavyweight in 1999. After compiling an impressive record of 20–0 with 15 knockouts, Ibeabuchi's natural talent and potential inside the ring was eventually overshadowed by emotional instability and violent tendencies in his personal life. After a series of run-ins with law enforcement, he was imprisoned in Las Vegas in July 1999, after submitting an Alford plea for charges on sexual misconduct. This also marked the end of his professional boxing career. In November 2015, Ibeabuchi was released from the custody of United States Immigration and Customs Enforcement after completing his 16-year Nevada state prison sentence without incident. He announced his desire to return to the ring to resume his professional boxing career, but was rearrested before his comeback could take place."
     },
     {
       "id": 4,
       "name": "Lennox Lewis",
       "height": "196 cm",
-      "weight": "112 kg"
+      "weight": "112 kg",
+      "puthImage": "",
+      "bio": ""
     },
     {
       "id": 5,
       "name": "Vitaliy Klichko",
       "height": "201 cm",
-      "weight": "112 kg"
+      "weight": "112 kg",
+      "puthImage": "",
+      "bio": ""
     },
     {
       "id": 6,
       "name": "Joe Frazier",
       "height": "182 cm",
-      "weight": "93 kg"
+      "weight": "93 kg",
+      "puthImage": "",
+      "bio": ""
     },
     {
       "id": 7,
       "name": "Riddick Bowe",
       "height": "196 cm",
-      "weight": "107 kg"
+      "weight": "107 kg",
+      "puthImage": "",
+      "bio": ""
     },
     {
       "id": 8,
       "name": "Evander Holyfield",
       "height": "189 cm",
-      "weight": "98 kg"
+      "weight": "98 kg",
+      "puthImage": "",
+      "bio": ""
     },
 
     {
       "id": 9,
       "name": "David Tua",
       "height": "178 cm",
-      "weight": "102 kg"
+      "weight": "102 kg",
+      "puthImage": "",
+      "bio": ""
     },
     {
       "id": 10,
       "name": "Mike Tyson",
       "height": "178 cm",
-      "weight": "96 kg"
+      "weight": "96 kg",
+      "puthImage": "", 
+      "bio": ""
     }
   ]
 }

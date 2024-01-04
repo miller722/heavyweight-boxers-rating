@@ -67,3 +67,19 @@ background-color: #383737;
   border-radius: 50%;
   border: 5px groove rgb(170, 169, 166);
 }
+
+.btn-close {
+  display: none;
+}
+
+@media (max-width: 790px) {
+  .btn-close {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .modal{
+    padding-top: 50px;
+  }
+}
