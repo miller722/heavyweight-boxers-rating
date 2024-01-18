@@ -40,7 +40,8 @@ p {
   margin-top: 20px;
 }
 .modal-content {
-background-color: #383737;
+  background: rgb(122, 107, 72);
+  width: 900px;
 
 }
 .modal-header {
@@ -71,6 +72,107 @@ background-color: #383737;
 .btn-close {
   display: none;
 }
+
+td:hover {
+  background-color: white;
+}
+
+.table-border {
+  border: 10px #000 groove;
+}
+.img-border {
+  border: 5px #000 groove;
+}
+
+.img__wrapper {
+  width: 225px;
+  height: 200px;
+  border: 5px #000 groove;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.boxing-record__container {
+  font-family: 'Alumni Sans Collegiate One';
+  font-size: 30px; 
+  color: rgb(7, 7, 7);
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+}
+
+.boxing-record__name {
+ text-align: center;
+ font-size: 48px; 
+ padding-top: 5px;
+}
+
+.boxing-record__wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5px;
+}
+
+.boxing-record__wrapper h4 {
+  font-size: 36px; 
+}
+
+.boxing-record__title {
+  display: flex;
+}
+
+.boxing-record__item {
+  text-align: center;
+}
+
+.boxing-record__item h5 {
+  font-size: 30px;
+}
+
+.boxing-record__item:nth-child(n) {
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.skills__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  height: 100%;
+  padding: 20px 50px 20px 50px;
+  background: rgb(122, 107, 72);
+  border: 5px #000 groove;
+  }
+
+  .skills__item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   }
+   .skills__item h5 {
+    font-family: 'Alumni Sans Collegiate One';
+    font-size: 30px;
+    color: rgb(7, 7, 7);
+   }
+   .skills__item-score {
+    color: rgb(7, 7, 7);
+    font-family: 'Alumni Sans Collegiate One';
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+/* .skills__item {
+ font-size: 18px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 5px;
+} */
 
 @media (max-width: 790px) {
   .btn-close {

@@ -1,5 +1,4 @@
 import Modal from "react-bootstrap/Modal";
-import { heavyweightBoxers } from "../data/boxer-list.json";
 
 export default function BoxerInfoModal({ selectedBoxer, lgShow, setLgShow }) {
   return (
@@ -16,7 +15,7 @@ export default function BoxerInfoModal({ selectedBoxer, lgShow, setLgShow }) {
               <div>
                 <img
                   className="title-info__image"
-                  src={selectedBoxer.puthImage}
+                  src={selectedBoxer.puthImageBio}
                   alt=""
                 />
               </div>
