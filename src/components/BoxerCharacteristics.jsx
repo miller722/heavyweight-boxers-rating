@@ -1,5 +1,4 @@
 import React from "react";
-import Table from "react-bootstrap/Table";
 import Modal from "react-bootstrap/Modal";
 import { heavyweightBoxers } from "../data/boxer-list.json";
 
@@ -8,6 +7,10 @@ export default function BoxerCharacteristics({
   lgShow,
   setLgShow,
 }) {
+  const calculateProgress = (value) => {
+    return (value / 10) * 100; // Процент заполненности прогресс-бара
+  };
+
   return (
     <div>
       <Modal
@@ -58,12 +61,12 @@ export default function BoxerCharacteristics({
         </div>
         <div className="skills__container">
           <div className="skills__item">
-            <div>
+            {/* <div>
               <h5>Height</h5>
             </div>
             <div>
               <h5>Weight</h5>
-            </div>
+            </div> */}
             <div>
               <h5>Height Bonus</h5>
             </div>
@@ -89,13 +92,79 @@ export default function BoxerCharacteristics({
               <h5>Total</h5>
             </div>
           </div>
+
+          <div className="progress-bar__wrapper">
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.heightAdvantage)}%`,
+                }}
+              ></div>
+            </div>
+
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.punchingPower)}%`,
+                }}
+              ></div>
+            </div>
+
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.defense)}%`,
+                }}
+              ></div>
+            </div>
+
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.chin)}%`,
+                }}
+              ></div>
+            </div>
+
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.intelligence)}%`,
+                }}
+              ></div>
+            </div>
+
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.endurance)}%`,
+                }}
+              ></div>
+            </div>
+
+            <div className="progress-bar-container">
+              <div
+                className="progress-bar"
+                style={{
+                  width: `${calculateProgress(selectedBoxer.speed)}%`,
+                }}
+              ></div>
+            </div>
+          </div>
+
           <div className="skills__item-score">
-            <div>
+            {/* <div>
               <p>{selectedBoxer.height}</p>
             </div>
             <div>
               <p>{selectedBoxer.weight}</p>
-            </div>
+            </div> */}
             <div>
               <p>{selectedBoxer.heightAdvantage}</p>
             </div>
@@ -122,40 +191,6 @@ export default function BoxerCharacteristics({
             </div>
           </div>
         </div>
-        <>
-          {/* <Table className="table-list" striped bordered hover variant="dark">
-            <thead>
-              <tr className="text-center">
-                <th>Name</th>
-                <th>Height</th>
-                <th>Weight</th>
-                <th>Height Advantage</th>
-                <th>Punching Power</th>
-                <th>Defense</th>
-                <th>Chin</th>
-                <th>Intelligence</th>
-                <th>Endurance</th>
-                <th>Speed</th>
-                <th>Total</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr className="text-center">
-                <td>{selectedBoxer.name}</td>
-                <td>{selectedBoxer.height}</td>
-                <td>{selectedBoxer.weight}</td>
-                <td>{selectedBoxer.heightAdvantage}</td>
-                <td>{selectedBoxer.punchingPower}</td>
-                <td>{selectedBoxer.defense}</td>
-                <td>{selectedBoxer.chin}</td>
-                <td>{selectedBoxer.intelligence}</td>
-                <td>{selectedBoxer.endurance}</td>
-                <td>{selectedBoxer.speed}</td>
-                <td>{selectedBoxer.total}</td>
-              </tr>
-            </tbody>
-          </Table> */}
-        </>
       </Modal>
     </div>
   );
