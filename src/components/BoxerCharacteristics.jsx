@@ -25,36 +25,46 @@ export default function BoxerCharacteristics({
             src={selectedBoxer.puthImageSkillsFirst}
             alt=""
           />
-          <div>
+          <div className="boxing-record__wrapper">
             <h1 className="boxing-record__name">{selectedBoxer.name}</h1>
-            <div className="boxing-record__wrapper">
-              <h4>Boxing record:</h4>
-              <div className="boxing-record__title">
-                <div className="boxing-record__item">
-                  <h5>Total fights:</h5>
-                  <span>{selectedBoxer.totalFights}</span>
-                </div>
-                <div className="boxing-record__item">
-                  <h5>Wins:</h5>
-                  <span>{selectedBoxer.wins}</span>
-                </div>
-                <div className="boxing-record__item">
-                  <h5>Wins by KO:</h5>
-                  <span>{selectedBoxer.winsByKO}</span>
-                </div>
-                <div className="boxing-record__item">
-                  <h5>Losses:</h5>
-                  <span>{selectedBoxer.losses}</span>
-                </div>
-                {/* <div>
+            <h4>Boxing record:</h4>
+            <div className="boxing-record__title">
+              <div className="boxing-record__item">
+                <h5>Total fights:</h5>
+                <span>{selectedBoxer.totalFights}</span>
+              </div>
+              <div className="boxing-record__item">
+                <h5>Wins:</h5>
+                <span>{selectedBoxer.wins}</span>
+              </div>
+              <div className="boxing-record__item">
+                <h5>Wins by KO:</h5>
+                <span>{selectedBoxer.winsByKO}</span>
+              </div>
+              <div className="boxing-record__item">
+                <h5>Losses:</h5>
+                <span>{selectedBoxer.losses}</span>
+              </div>
+              {/* <div>
     <h5>Draws:</h5>
     <span>{selectedBoxer.draws}</span>
   </div> */}
-              </div>
             </div>
           </div>
           <img
-            className="img__wrapper "
+            className="img__wrapper"
+            src={selectedBoxer.puthImageSkillsSecond}
+            alt=""
+          />
+        </div>
+        <div className="img__container">
+          <img
+            className="img__wrapper img--hidden"
+            src={selectedBoxer.puthImageSkillsFirst}
+            alt=""
+          />
+          <img
+            className="img__wrapper img--hidden"
             src={selectedBoxer.puthImageSkillsSecond}
             alt=""
           />

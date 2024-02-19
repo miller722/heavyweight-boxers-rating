@@ -8,6 +8,7 @@ export default function BoxerInfoModal({ selectedBoxer, lgShow, setLgShow }) {
         show={lgShow}
         onHide={() => setLgShow(false)}
         aria-labelledby="example-modal-sizes-title-lg"
+        className="boxer-info__modal"
       >
         <>
           <Modal.Header closeButton>
