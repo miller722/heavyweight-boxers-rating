@@ -28,6 +28,11 @@ p {
   left: 50%;
   transform: translate(-50%, 25%);
   width: 490px;
+  background: rgb(122, 107, 72) !important;
+}
+.table-list td {
+  --bs-table-bg-type: #323539!important;
+  --bs-table-hover-bg: rgb(100, 98, 98) !important;
 }
 
 .images-avatar{
@@ -259,7 +264,7 @@ td:hover {
   }
   .table-list{
     transform: translate(-50%, 20%);
-    width: 390px;
+    width: 383px;
   }
   .modal{
     padding-top: 25px;
