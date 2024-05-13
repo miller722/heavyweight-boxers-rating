@@ -194,9 +194,32 @@
       "puthImageBio": "images/Joe-Frazier-info.jpg",
       "bio": "Joseph William Frazier (January 12, 1944 – November 7, 2011), nicknamed ``Smokin' Joe``, was an American professional boxer who competed from 1965 to 1981. Widely regarded as one of the greatest heavyweight boxers of all time, he was known for his strength, durability, formidable left hand, and relentless pressure fighting style and was the first boxer to defeat Muhammad Ali. Frazier held the NYSAC heavyweight title from 1968 to 1973 and the undisputed heavyweight champion from 1970 to 1973 and as an amateur won a gold medal at the 1964 Summer Olympics."
     },
-
     {
       "id": 9,
+      "name": "Mike Tyson",
+      "height": "178 cm",
+      "weight": "96 kg",
+      "reach": "178 cm",
+      "anthropometricBonus": "1.5",
+      "punchingPower": "8",
+      "defense": "9",
+      "chin": "8",
+      "intelligence": "8",
+      "endurance":"8",
+      "speed": "9",
+      "total": "51.5",
+      "totalFights": "59",
+      "wins": "50",
+      "winsByKO": "44",
+      "losses": "6",
+      "draws": "1", 
+      "puthImageSkillsFirst": "images/Mike_Tyson.jpg", 
+      "puthImageSkillsSecond": "images/Mike-Tyson.jpg", 
+      "puthImageBio": "images/Mike-Tyson-info.jpg", 
+      "bio": "Michael Gerard Tyson (born June 30, 1966) is an American former professional boxer who competed from 1985 to 2005. Nicknamed 'Iron Mike' Tyson is regarded as one of the greatest heavyweight boxers of all time. He reigned as the undisputed world heavyweight champion from 1987 to 1990. Tyson won his first 19 professional fights by knockout, 12 of them in the first round. Claiming his first belt at 20 years, 4 months, and 22 days old, Tyson holds the record as the youngest boxer ever to win a heavyweight title. He was the first heavyweight boxer to simultaneously hold the WBA, WBC and IBF titles, as well as the only heavyweight to unify them in succession. The following year, Tyson became the lineal champion when he knocked out Michael Spinks in 91 seconds of the first round. In 1990, Tyson was knocked out by underdog Buster Douglas in one of the biggest upsets in boxing history."
+    },
+    {
+      "id": 10,
       "name": "David Tua",
       "height": "178 cm",
       "weight": "102 kg",
@@ -218,30 +241,6 @@
       "puthImageSkillsSecond": "images/David-Tua.jpg", 
       "puthImageBio": "images/David-Tua-info.jpg",
       "bio": "Faumuina To'aletai Mafaufau David Tua ONZM (born 21 November 1972), best known as David Tua, is a Samoan-New Zealand former professional boxer who competed from 1992 to 2013. A highly ranked heavyweight contender for most of his career, Tua was known for his formidable punching power, especially in his devastating left hook. He scored sixteen wins by knockout in the first round, which included knockouts of world heavyweight champions John Ruiz and Michael Moorer within thirty seconds of the first round, as well as late stoppages of world champions Oleg Maskaev and Hasim Rahman. He was ranked by BoxRec in the world's top 10 heavyweights from 1996 to 2003, reaching his highest ranking of No.3 in 1998. Tua ended his career with a knockout-to-win ratio of 82.6%. In a 2003 article by The Ring magazine, Tua was ranked 48th on a list of 100 greatest punchers of all time"
-    },
-    {
-      "id": 10,
-      "name": "Mike Tyson",
-      "height": "178 cm",
-      "weight": "96 kg",
-      "reach": "178 cm",
-      "anthropometricBonus": "1.5",
-      "punchingPower": "8",
-      "defense": "9",
-      "chin": "7",
-      "intelligence": "8",
-      "endurance":"7",
-      "speed": "9",
-      "total": "49.5",
-      "totalFights": "59",
-      "wins": "50",
-      "winsByKO": "44",
-      "losses": "6",
-      "draws": "1", 
-      "puthImageSkillsFirst": "images/Mike_Tyson.jpg", 
-      "puthImageSkillsSecond": "images/Mike-Tyson.jpg", 
-      "puthImageBio": "images/Mike-Tyson-info.jpg", 
-      "bio": "Michael Gerard Tyson (born June 30, 1966) is an American former professional boxer who competed from 1985 to 2005. Nicknamed 'Iron Mike' Tyson is regarded as one of the greatest heavyweight boxers of all time. He reigned as the undisputed world heavyweight champion from 1987 to 1990. Tyson won his first 19 professional fights by knockout, 12 of them in the first round. Claiming his first belt at 20 years, 4 months, and 22 days old, Tyson holds the record as the youngest boxer ever to win a heavyweight title. He was the first heavyweight boxer to simultaneously hold the WBA, WBC and IBF titles, as well as the only heavyweight to unify them in succession. The following year, Tyson became the lineal champion when he knocked out Michael Spinks in 91 seconds of the first round. In 1990, Tyson was knocked out by underdog Buster Douglas in one of the biggest upsets in boxing history."
     }
   ]
 }
