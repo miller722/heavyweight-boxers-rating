@@ -78,7 +78,7 @@ export default function BoxerCharacteristics({
               <h5>Weight</h5>
             </div> */}
             <div>
-              <h5>Height Bonus</h5>
+              <h5>Anthropometric </h5>
             </div>
             <div>
               <h5>Punching Power</h5>
@@ -108,7 +108,9 @@ export default function BoxerCharacteristics({
               <div
                 className="progress-bar"
                 style={{
-                  width: `${calculateProgress(selectedBoxer.heightAdvantage)}%`,
+                  width: `${calculateProgress(
+                    selectedBoxer.anthropometricBonus
+                  )}%`,
                 }}
               ></div>
             </div>
@@ -176,7 +178,7 @@ export default function BoxerCharacteristics({
               <p>{selectedBoxer.weight}</p>
             </div> */}
             <div>
-              <p>{selectedBoxer.heightAdvantage}</p>
+              <p>{selectedBoxer.anthropometricBonus}</p>
             </div>
             <div>
               <p>{selectedBoxer.punchingPower}</p>

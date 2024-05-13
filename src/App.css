@@ -324,4 +324,9 @@ td:hover {
     padding-top: 8px;
     padding-bottom: 38px;
   }
+
+  th,td,tr {
+    font-size: 12px;
+    padding: 3px !important;
+  }
 }
