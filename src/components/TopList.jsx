@@ -32,6 +32,7 @@ export default function TopList() {
             <th>Name</th>
             <th className="text-center">Height</th>
             <th className="text-center">Weight</th>
+            <th className="text-center">Reach</th>
             <th className="text-center">Skills</th>
             <th className="text-center">Bio</th>
           </tr>
@@ -43,6 +44,7 @@ export default function TopList() {
               <td>{item.name}</td>
               <td className="text-center">{item.height}</td>
               <td className="text-center">{item.weight}</td>
+              <td className="text-center">{item.reach}</td>
               <td
                 className="text-center img-icon"
                 onClick={() => handleSkillsClick(item)}
